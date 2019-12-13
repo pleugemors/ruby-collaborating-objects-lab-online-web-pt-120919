@@ -28,7 +28,7 @@ class Artist
   end
   
   def self.find_or_create_by_name(string_name)
-    binding.pry
+    #binding.pry
     #artist = self.all.find{|art| art.name == string_name} 
     #(artist.nil?) ? Artist.new(string_name) : artist 
   end
