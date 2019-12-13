@@ -13,6 +13,7 @@ class Artist
   attr_accessor :name 
   
   def self.all
+    puts @@all
     @@all
   end
   
