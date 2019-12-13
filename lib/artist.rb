@@ -27,8 +27,8 @@ class Artist
   end
   
   def self.find_or_create_by_name(string_name)
-    artist = self.all.find{|art| art.name == string_name} 
-    (artist.nil?) ? Artist.new(string_name) : artist 
+    #artist = self.all.find{|art| art.name == string_name} 
+    #(artist.nil?) ? Artist.new(string_name) : artist 
   end
   
   def print_songs
